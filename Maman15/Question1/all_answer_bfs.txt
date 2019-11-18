@@ -1,0 +1,51 @@
+solve_bfs(Sol),translator1(Sol),length(Sol,Number_Of_Passing).
+All people and boat on the east side lets start passing:
+----> move boat from east to west with next people: sara rivka yael
+<---- move boat from west to east with next people: rivka yael
+----> move boat from east to west with next people: michal rivka yael
+<---- move boat from west to east with next people: sara rivka yael
+----> move boat from east to west with next people: rachel rivka yael
+<---- move boat from west to east with next people: michal rivka yael
+----> move boat from east to west with next people: sara rivka yael
+<---- move boat from west to east with next people: rachel sara yael
+----> move boat from east to west with next people: rachel michal sara
+<---- move boat from west to east with next people: sara rivka
+----> move boat from east to west with next people: sara rivka yael
+<---- move boat from west to east with next people: michal rivka yael
+----> move boat from east to west with next people: michal yael
+<---- move boat from west to east with next people: yael
+----> move boat from east to west with next people: yaacov david avraham
+<---- move boat from west to east with next people: avraham sara
+----> move boat from east to west with next people: avraham yitzhak dan
+<---- move boat from west to east with next people: rachel michal
+----> move boat from east to west with next people: sara rivka yael
+<---- move boat from west to east with next people: rivka yael
+----> move boat from east to west with next people: michal rivka yael
+<---- move boat from west to east with next people: sara rivka yael
+----> move boat from east to west with next people: rachel rivka yael
+<---- move boat from west to east with next people: michal rivka yael
+----> move boat from east to west with next people: sara rivka yael
+<---- move boat from west to east with next people: rachel sara yael
+----> move boat from east to west with next people: rachel michal sara
+<---- move boat from west to east with next people: yitzhak dan rivka
+----> move boat from east to west with next people: yitzhak dan yael
+<---- move boat from west to east with next people: rachel michal sara
+----> move boat from east to west with next people: michal rivka
+<---- move boat from west to east with next people: yaacov avraham
+----> move boat from east to west with next people: avraham sara
+<---- move boat from west to east with next people: dan yael
+----> move boat from east to west with next people: yaacov rachel
+<---- move boat from west to east with next people: avraham sara
+----> move boat from east to west with next people: dan yael
+<---- move boat from west to east with next people: yitzhak rivka
+----> move boat from east to west with next people: avraham sara
+<---- move boat from west to east with next people: david michal
+----> move boat from east to west with next people: yitzhak rivka
+<---- move boat from west to east with next people: dan yael
+----> move boat from east to west with next people: david dan
+<---- move boat from west to east with next people: rivka
+----> move boat from east to west with next people: michal rivka yael
+
+*******Everyone moved from east to the west*******
+Number_Of_Passing = 45,
+Sol = [[23, 24, 25], [24, 25], [22, 24, 25], [23, 24, 25], [21, 24, 25], [22, 24, 25], [23, 24, 25], [21, 23, 25], [21, 22, 23], [23, 24], [23, 24, 25], [22, 24, 25], [22, 25], [25], [11, 12, 13], [13, 23], [13, 14, 15], [21, 22], [23, 24, 25], [24, 25], [22, 24, 25], [23, 24, 25], [21, 24, 25], [22, 24, 25], [23, 24, 25], [21, 23, 25], [21, 22, 23], [14, 15, 24], [14, 15, 25], [21, 22, 23], [22, 24], [11, 13], [13, 23], [15, 25], [11, 21], [13, 23], [15, 25], [14, 24], [13, 23], [12, 22], [14, 24], [15, 25], [12, 15], [24], [22, 24, 25]]
